@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{
+            border: 0px;
+
+        }
         body{
             padding: 0px;
             margin: 0px;
@@ -13,7 +18,8 @@
         #top{
             display: flex;
             justify-content: space-around;
-            padding: 20px;
+            align-items: center;
+            /* padding: 20px; */
             background-color: rgb(228,37,41);
 
         }
@@ -22,15 +28,30 @@
             width: 300px;
             justify-content: space-around;
         }
-        form{
+        form>input{
             border-radius: 20px;
             margin:auto;
             background-color: white;
             padding: 10px;
         }
-
+       form>button{
+            border-radius: 20px;
+            margin:auto;
+            background-color: white;
+            padding: 8px;
+        }
+        #bottom{
+            background-color:rgb(0,51,128);
+            color: white;
+            font-size: 15px;
+            height: 30px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
     </style>
-    <script src="https://kit.fontawesome.com/c2b1592ea6.js" crossorigin="anonymous"></script>
+
+
 </head>
 <body>
 <header>
@@ -38,21 +59,23 @@
         <div id="top">
             <a href="" > <img src="https://www.reliancedigital.in/build/client/images/loaders/rd_logo.svg" alt="logo"></a>
             <form action="">
-                <input type="text" placeholder="Find your favorite product">
-                <button><i class="fa-thin fa-magnifying-glass"></i></button>
+                <input id="searchBox" type="text" placeholder="Find your favorite product">
+                <button><i class="fa-solid fa-magnifying-glass"></i></i></button>
             </form>
-            <ul id="list1">
-                <li><span><i class="fa-regular fa-location-dot"></i>Select your PIN Code</span> </li><hr>
-                <li><span>Cart</span></li><hr>
-                <li><span>Login</span></li>
-            </ul>
+            <ol id="list1" type="">
+                <div><div><i class="fa-solid fa-location-dot"></i>Select your PIN Code</div> </div><hr>
+                <div><span>Cart</span></div><hr>
+                <div><span>Login</span></div>
+            </ol>
         </div>
-        <div id="bottom">
-
-        </div>
+        <nav id="bottom">
+            <span>MOBILE & TABLETS ></span><span>TELEVISIONS ></span><span>AUDIO ></span><span>HOME APPLIANCES ></span><span>COMPUTERS ></span><span>CAMERAS ></span><span>KITCHEN APPLIANCES ></span><span>PERSONAL CARE ></span><span>ACCESSORIES ></span>
+        </nav>
     </div>
 </header>
 
     
 </body>
 </html>
+        <script    src="https://kit.fontawesome.com/24c494a6b6.js"
+        crossorigin="anonymous" ></script>
