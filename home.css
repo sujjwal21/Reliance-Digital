@@ -303,3 +303,8 @@
             color: #2a5595;
             border:1px solid #2a5595;
          }
+         #login:hover{
+            cursor: pointer;
+           color: white;
+           font-size: 20px;
+         }

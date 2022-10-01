@@ -1,5 +1,4 @@
-
-        *{
+  *{
             border: 0px solid black;
 
         }
@@ -69,13 +68,13 @@
             width: 300px;
             justify-content: space-around;
         }
-        form>input{
+       #ram>input{
             border-radius: 20px;
             margin:auto;
             background-color: white;
             padding: 10px;
         }
-       form>button{
+       #ram>button{
             border-radius: 20px;
             margin:auto;
             background-color: white;
@@ -94,12 +93,13 @@
             cursor: pointer;
 
         }
-        form{
+        #ram{
             background-color: white;
+            display: flex;
             border-radius: 20px;
         }
-        /* ====================================================================================
-         */
+        /* ======================================================================================================
+        ======================================================================================================= */
 
          #foot1{
             background-color:rgb(0,51,128);
@@ -156,84 +156,39 @@
             text-align: center;
             padding-bottom: 20px;
         }
-        /* =========================================================================================== */
 
-        .swiper-slide>img{
-            width: 100%;
-        }
-        #live0{
-            margin-top: 65px;
-        }
-        #stick{
-            display: flex;
-            color: gray;
-            margin-left: 20px;
-            align-items: center;
-        }
-        .main{
-            display: flex;
-        }
-        .main1{
-            width: 20%;
-        }
-        .main2{
-            width: 80%;
-        }
-        #m1{
-            display: flex;
-            justify-content: space-between;
-            margin-right: 40px;
-        }
-        #m2{
-            display: grid;
-            grid-template-columns: repeat(4,1fr);
-            gap: 10px;
-        }
-        #m2>div img{
-            width: 200px;
-
-        }
-        #m2>div img:hover{
-            width: 210px;
-        }
-        #m2>div{
-            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-            padding: 10px;
-            
-        }
-        #m2>div:hover h4{
-            color: red;
+        /* =================================================================================
+        =================================================================================== */
+        .lucy{
            
-        }
-        #m2>div:hover{
-            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-        }
-        .bot{
-            display: flex;
-        }
-        .botl{
-            width: 70%;
-            padding: 10px;
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        }
-        .botr{
             width: 30%;
+            margin: auto;
+        }
+        .box625{
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             padding: 10px;
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            margin-top: 100px;
         }
-        .botr>table{
-            border: 1px solid black;
+        .lucy h2,p,h4{
+            text-align: center;
         }
-        .botr>table td{
+        .lucy h4,p{
+            color: gray;
+        }
+        label{
+            margin-left: 5%;
+        }
+        .lucy input,button{
+            width: 90%;
+            height: 40px;
+            margin-left:5%;
+            border-radius: 5px;
+            border: 1px solid gray;
             
-            border: 1px solid black;
         }
-        .botr>table th{
-            border: 1px solid black;
-            background-color: gainsboro;
+        .lucy button{
+            background-color: rgb(201, 194, 194);
+            color: black;
+            text-align: center;
         }
-           #login:hover{
-            cursor: pointer;
-           color: white;
-           font-size: 20px;
-         }

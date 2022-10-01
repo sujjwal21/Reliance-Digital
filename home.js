@@ -254,3 +254,6 @@ function fumsum(){
 function leman(){
     window.location.href="gamingConsole.html"
 }
+function login(){
+    window.location.href="login.html"
+}

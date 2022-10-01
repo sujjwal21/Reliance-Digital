@@ -5,12 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="gamingConsole.css">
-    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-/>
+    <link rel="stylesheet" href="signup.css">
 </head>
 <body>
-    <header>
+<header>
     <div id="top0">
     <ul><span> Find a store</span>
     <span>Buying Guides </span>
@@ -19,14 +17,14 @@
     <div id="navbar">
         <div id="top">
             <a href="https://www.reliancedigital.in/content/festival-of-electronic-sale"> <img src="https://www.reliancedigital.in/build/client/images/loaders/rd_logo.svg" alt="logo"></a>
-            <form action="">
+            <form id="ram" action="">
                 <input id="searchBox" type="text" placeholder="Find your favorite product">
                 <button><i class="fa-solid fa-magnifying-glass"></i></i></button>
             </form>
             <ol id="list1" type="">
                 <div><div><i class="fa-solid fa-location-dot"></i>Select your PIN Code</div> </div><hr>
                 <div><span>Cart</span></div><hr>
-                <div><span id="login" onclick="login()">Login</span></div>
+                <div><span>Login</span></div>
             </ol>
         </div>
         <nav id="bottom">
@@ -123,173 +121,42 @@
         </nav>
     </div>
 </header>
-    <div id="live0">
-                    <div class="swiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide"><img src="https://www.reliancedigital.in/medias/Ratchet-Clant-WebBanner-BuyNow-Reliance-1365X260-desktop.jpg?context=bWFzdGVyfGltYWdlc3wxMDExMjJ8aW1hZ2UvanBlZ3xpbWFnZXMvaGJiL2hmYy85NTcwMTQ0MDU5NDIyLmpwZ3w5NzA1YTNlMzc2ZDI1YzExZDhiNzYyNWQyYWYyZjI2NjEwNjAxYWZiZDFlYmRhODA1OTA1OTY5NjZmZGVlN2I2" alt=""></div>
-                <div class="swiper-slide"><img src="https://www.reliancedigital.in/medias/PlayStation-God-Of-Wars-Web-Banners-Reliance-1365x300.jpg?context=bWFzdGVyfGltYWdlc3w4MzU4OXxpbWFnZS9qcGVnfGltYWdlcy9oZDMvaDFjLzk4NjA3MzYyNTM5ODIuanBnfGVhZmQyNTFjOGQ2NTk2Mzg1YmQ2NGUzNDk0ZGNhZTg3NGZmZjQxMzkwYTRkYmU5NmQwZWRkYzM3OTEyODcxNjE" alt=""></div>
-                <div class="swiper-slide"><img src="https://www.reliancedigital.in/medias/PlayStation-Spider-Man-Web-Banners-Reliance-1365x300.jpg?context=bWFzdGVyfGltYWdlc3w2NDk3NHxpbWFnZS9qcGVnfGltYWdlcy9oZjMvaDNiLzk4OTU0MDEwMjk2NjIuanBnfDc4Y2Q4MGFmN2ZiMjMyMjg2ODk2OTJmZDgxM2RmNTAwMmY2ZTdiNzFmYjhkMDdiODgzODI5YTM0YjQ4YTE5M2Y" alt=""></div>
-                <div class="swiper-slide"><img src="https://www.reliancedigital.in/medias/PlayStation-TLOU-Web-Banners-Reliance-1365x300.jpg?context=bWFzdGVyfGltYWdlc3w3NTgzNXxpbWFnZS9qcGVnfGltYWdlcy9oNjIvaDNmLzk4Nzc4NjYxMTkxOTguanBnfDRhNTgwYTFiNmJhN2I3NjFjYjc3MzMxNDdmYzA4YWI3OTA0OWY2OGU4OGYxYmNkMDUyNjM0ZTBhM2ViZTFhYmM" alt=""></div>
-                <div class="swiper-slide"><img src="https://www.reliancedigital.in/medias/Xbox-Controller-1365X260-updated.jpg?context=bWFzdGVyfGltYWdlc3w3NzA2MHxpbWFnZS9qcGVnfGltYWdlcy9oMjIvaDM2Lzk1NjMwODY1ODU4ODYuanBnfDk0MTI3ODNhZWFkMzIwNGYxOTNmN2UyNWEyMDdjMDRlNDQ5NmMyM2Y5ZDAxY2M0MjQyNDA4ZjA0NzhjYmM0MWY" alt=""></div>
-                ...
-            </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
 
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
 
-            <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
-            </div>
+
+
+<div class="lucy">
+            <div class="box625">
+
+        <h2>Sign Up</h2>
+
+        <form action="" id="signup">
+            <label for="">Full Name</label><br><br>
+            <input type="text" id="name" placeholder="Enter Your Full Name" required><br>
+            <br>
+            <label for="">Email</label><br>
+            <br>
+            <input type="email" id="email" placeholder="Enter email" required><br><br>
+            <label for="">Password</label><br><br>
+            <input type="password" id="passcode" placeholder="Enter password" required>
+            <p>By signing up I accept the Reliance Digital <u><a href="https://masaischool.com/terms" target="_blank">
+                Terms of Service
+            </a></u>and acknowledge the <u><a href="https://masaischool.com/privacy" target="_blank">Privacy Policy.</a></u></p>
+            <button>SIGN UP</button>
+            <br>
+            <h4 class="">Already have an account? <a href="login.html">Sign In</a></h4>
+    
+        </form>
     </div>
-    <div id="stick">
-        <i class="fa-solid fa-house"></i><i class="fa-solid fa-chevron-right"></i><p>gaming Consoles</p><i class="fa-solid fa-chevron-right"></i><p>Product Listing</p>
-    </div>
-<div class="main">
-    <div class="main1">
-        <h3>FILTERS</h3>
-        <hr style="border:1px solid #dfdfdf;" >
-    </div>
+    <h4>© 2022 by Reliance Digital
+        Privacy Policy & Terms and Conditions
+        </h4>
 
-
-    <div class="main2">
-        <div id="m1">
-            <div><h1>Gaming Consoles</h1><p>(Showing 1- 12 products of 12 products)</p> </div>
-            <div id="m22">
-                <select name="Sort By:" id="filter">
-                    <option value="">Relevance</option>
-                    <option value="highToLow">High To Low</option>
-                    <option value="lowToHigh">Low To High</option>
-                </select>
-            </div>
-        </div>
-        <div id="m2"></div>
-        <div class="bot">
-            <div class="botl">
-                <h4>Buy Gaming Console Online in India</h4>
-                <p>Gaming consoles have risen in popularity like nothing else in the past few decades. What started with old-style Play Stations, Nintendos and Wiis, has now evolved into a lot more advanced gadgetry like the XBOX Series S, the PlayStation 4, and many, many more devices that allow you to delve deep into the world of gaming.
-
-Gaming as an activity was met with a lot of resistance but is now looked at with more acceptance and understanding. It is now widely known that gaming can be a fun hobby that has quite a few advantages, such as:</p>
-<ul>
-    <li>Gaming can heighten cognitive function in children and adults.</li>
-    <li>Gaming of all kinds can increase hand-eye coordination.</li>
-    <li>Gaming ensures that your concentration levels stay high.</li>
-    <li>Gaming is an entertainment option that doubles up as a competitive activity.</li>
-    <li>Gaming now allows you to experience hybrid games that challenge you physically and can help keep you physically fit.</li>
-</ul>
-<p>There are so many types of games out there for you to choose from, such as:</p>
-<ul>
-    <li>Simulation games</li>
-    <li>Sports-based games</li>
-    <li>Adventure-based games</li>
-    <li> Stealth shooter games</li>
-    <li>Superhero games</li>
-</ul>
-<p>Reliance Digital covers you for every kind of game you might need, for kids or adults, for every kind of gaming console you have.</p>
-<h4>Browse Through the Latest Gaming Consoles</h4>
-<p>There are quite a few kinds of gaming consoles that you can buy on Reliance Digital.</p>
-<ul>
-    <li>Microsoft XBOX</li>
-    <p>Microsoft Xbox is a gaming console system developed by Microsoft, the same company that made the uber-popular Windows operating system. The Xbox system started with the Xbox 360, which came out way back in 2005. Now, the Xbox One is the latest one, announced in 2013.
-
-The Xbox One comes with an 8 core CPU, an 8 GB RAM and a 500GB / 1TB HDD. One of the console's best features is that it has a Blue-Ray drive.</p>
-<li>Sony PlayStations</li>
-<p>The range of home gaming consoles released by Sony. The first PlayStation, the PS1, came out way back in 1994, and the latest one is now called the PlayStation 5 and is available right here on Reliance Digital. You can also buy the PS4 1 TB Slim Version of the PlayStation on Reliance Digital.
-
-The console is fueled by the GDDR5 8GB RAM. The PS4 supports games with high-end graphics. The storage size of this variant is 1 Terabyte.</p>
-<li>PCs or gaming laptops</li>
-<p>Reliance Digital's range of gaming laptops is compatible with all major PC games, and we have a huge range of laptops meant specifically for gaming.</p>
-</ul>
-<p>Our range of gaming consoles includes a whole range of super popular handheld consoles, such as the Mitashi MT64 Console, the Mitashi Thunderbolt console, and more!</p>
-<h4>Factors to Consider Before Buying Gaming Console</h4>
-<p>Before you buy your brand new gaming console, you must consider the following factors:</p>
-<ul>
-    <li>  What is your budget when it comes to purchasing a home gaming console?</li>
-    <li>What kind of gaming console do you want - a PlayStation, a Mitashi, or an Xbox?</li>
-    <li>What types of games do you prefer, and are they compatible with the console you consider?</li>
-    <li> Do you want to shop for a console that supports motion gaming?</li>
-    <li> Do you prefer a portable gaming console, like the PSP or the Mitashi?</li>
-
-</ul>
-<h4>Find the Best Gaming Console within your Budget.</h4>
-<p>Reliance Digital has got you covered, whether it's ultra-portable PSPs and Mitashis to more heavy-duty gaming consoles, like the Xbox or the Playstation.
-
-With our amazing offers and stellar after-sales service, we make it a point to ensure that you buy the best products, from the most trusted brands, at the best possible prices.
-
-Go ahead and shop for the best gaming consoles and gaming console accessories on Reliance Digital.</p>
-            </div>
-            <div class="botr">
-                <h4>Gaming Consoles Price List</h4>
-                <table>
-                    <thead>
-                    <th>S.no</th>
-                    <th>Products - Gaming Consoles</th>
-                    <th>Price</th>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>XBOX Series S Console with Wireless Controller, 512 GB</td>
-                        <td>₹37,990.00</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>XBOX Series X Console with Wireless Controller, 1 TB</td>
-                        <td>₹52,990.00</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Sony PS4 Console, 1TB Slim with 3 Games: Gran Turismo S...</td>
-                        <td>₹29,990.00</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>Sony PS4 1TB Slim Console Bundled with Spider-Man/Grand...</td>
-                        <td>₹29,990.00</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>Sony PS4 1TB Slim with DS4 Additional controller</td>
-                        <td>₹29,990.00</td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <td>Mitashi MT 64 Console, 4 GB</td>
-                        <td>₹1,999.00</td>
-                    </tr>
-                    <tr>
-                        <td>7</td>
-                        <td>Sony PS3 500GB Console</td>
-                        <td>₹19,990.00</td>
-                    </tr>
-                    <tr>
-                        <td>8</td>
-                        <td>₹19,990.00</td>
-                        <td>₹21,990.00</td>
-                    </tr>
-                    <tr>
-                        <td>9</td>
-                        <td>Mitashi Thunder Bolt Console</td>
-                        <td>₹2,999.00</td>
-                    </tr>
-                    <tr>
-                        <td>10</td>
-                        <td>Microsoft Xbox 360 Slim Console, 4 GB</td>
-                        <td>₹11,990.00</td>
-                    </tr>
-                    <tr >
-                        <td colspan="3">Gaming Consoles Price List updated on 1-10-2022</td>
-                    </tr>
-                </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
 </div>
+
+
+
+
 
 
   <footer>
@@ -372,32 +239,8 @@ Go ahead and shop for the best gaming consoles and gaming console accessories on
         </div>
     </div>
 </footer>
-
-<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-<script>
-    const swiper = new Swiper('.swiper', {
-        autoplay:{
-            delay:3000,
-            disableOnIntraction:false
-        },
-  // Optional parameters
-  loop: true,
-
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-    clickable:true
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-});
-</script>
 </body>
 </html>
-       <script    src="https://kit.fontawesome.com/24c494a6b6.js"
+<script src="signup.js"></script>
+<script    src="https://kit.fontawesome.com/24c494a6b6.js"
         crossorigin="anonymous" ></script>
-        <script src="gamingConsole.js"></script>
