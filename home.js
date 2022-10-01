@@ -237,3 +237,10 @@ data2.forEach(function(el){
     div.append(an)
     document.querySelector("#top23").append(div)
  })
+
+ document.querySelector("#navbar>#top img").addEventListener("click",myfun);
+
+ function mufun(event){
+    event.preventDefault();
+    window.open="discount.html"
+ }
