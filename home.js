@@ -7,7 +7,15 @@ function myfun(event){
     localStorage.setItem("searchItem",search)
     // console.log("ram")
 }
-
+let nav=document.querySelector("header");
+let napup=document.querySelector(".navupeer");
+window.onscroll=function(){
+    if(window.pageYOffset>napup.offsetTop){
+        nav.classList.add("sticky");
+    }else{
+        nav.classList.remove("sticky");
+    }
+};
  let data1=[
 {
 image:"https://www.reliancedigital.in/medias/Redmi-9-activ-6GB-128GB-.jpg?context=bWFzdGVyfGltYWdlc3w4NTQ4OXxpbWFnZS9qcGVnfGltYWdlcy9oNTQvaDE2Lzk4OTUzOTgxNDYwNzguanBnfGY5MGUwNzM0MzBmNTE3NzkzMmY0NzZlNDkyZWJlOWVlZTU1MTMzNmMzY2RjNTUwNjUzYWE1MGJiNmIyNmIwN2M",
@@ -242,5 +250,5 @@ data2.forEach(function(el){
 
  function mufun(event){
     event.preventDefault();
-    window.open="discount.html"
+    window.location.href="discount.html"
  }
