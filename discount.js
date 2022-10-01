@@ -149,3 +149,11 @@ data3.forEach(function(el){
     div.append(an)
     document.querySelector("#box3").append(div)
 })
+document.querySelector("#img2").addEventListener("click",fun);
+ function fun(){
+    window.location.href="https://www.reliancedigital.in/search?q=:price-asc:productTags:festival-of-electronics-under9999:availability:Exclude%20out%20of%20Stock&page=0"
+ }
+
+ function leman(){
+    window.location.href="gamingConsole.html"
+ }

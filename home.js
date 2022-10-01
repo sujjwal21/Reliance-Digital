@@ -246,9 +246,11 @@ data2.forEach(function(el){
     document.querySelector("#top23").append(div)
  })
 
- document.querySelector("#navbar>#top img").addEventListener("click",myfun);
-
- function mufun(event){
-    event.preventDefault();
+function fumsum(){
+    console.log("radhey radhey")
     window.location.href="discount.html"
- }
+}
+
+function leman(){
+    window.location.href="gamingConsole.html"
+}
