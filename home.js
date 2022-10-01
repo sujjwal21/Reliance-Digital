@@ -62,7 +62,7 @@ url:"https://www.reliancedigital.in/page/tecno-pop-5-mobiles"
  data1.forEach(function(el){
     let div=document.createElement("div")
     let an=document.createElement("a")
-    an.url=el.url;
+    an.href=el.url;
     let img=document.createElement("img")
     img.src=el.image;
 
@@ -193,8 +193,8 @@ image:"https://www.reliancedigital.in/medias/Samsung-Smart-HD-Ready-TV-TOP-PICKS
 url:"https://www.reliancedigital.in/page/samsung-tv?searchQuery=:price-asc:availability:Exclude%20out%20of%20Stock:brand:Samsung&page=0"
 },
 {
-image:"https://www.reliancedigital.in/build/client/images/loaders/mdefault.png",
-url:"https://www.reliancedigital.in/page/tecno-pova-3-mobile"
+image:"https://www.reliancedigital.in/medias/Refrigerators-TOP-PICKS-BY-CATEGORY-1.jpg?context=bWFzdGVyfGltYWdlc3w0MzM3MnxpbWFnZS9qcGVnfGltYWdlcy9oZTgvaGQ2Lzk4OTYyODc0Njk1OTguanBnfDk5N2E5NGIyOWJhMzkyNzlhN2VkOTczZDA2YTI4YjAzYmNiODEyMTNmOTJlNDJlNWU0NjQ4Y2M1N2YzOTM2NjI",
+url:"https://www.reliancedigital.in/search?q=:price-asc:productTags:festival-of-electronics-deals-refs:Exclude%20out%20of%20Stock&page=0"
 },
 {
 image:"https://www.reliancedigital.in/medias/New-Audio-Launchers-TOP-PICKS-BY-CATEGORY.jpg?context=bWFzdGVyfGltYWdlc3w0NDE1OXxpbWFnZS9qcGVnfGltYWdlcy9oODgvaGE0Lzk4OTUzOTk4NTAwMTQuanBnfDNhMGZiMTAxMDA5OWYzODQ1OWEyODFlODNlZDIxZmM5ZTNmNWY3NjAyNjNlMjdmZWZmMzUzOWYxYmYyYWVjMjM",
@@ -229,10 +229,11 @@ url:"https://www.reliancedigital.in/search?q=:price-asc:productTags:festival-of-
 
 data2.forEach(function(el){
     let div=document.createElement("div")
-    
+    let an=document.createElement("a")
+    an.href=el.url;
     let img=document.createElement("img")
     img.src=el.image;
-
-    div.append(img)
+    an.append(img)
+    div.append(an)
     document.querySelector("#top23").append(div)
  })

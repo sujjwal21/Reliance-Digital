@@ -159,6 +159,121 @@
         #top23{
             display: grid;
             grid-template-columns: repeat(4,1fr);
-            /* margin-left: 10px; */
+            margin-left: 10px;
         }
-       
+       .mobile{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows:auto ;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 10px;
+       }
+       .mobile h5{
+        color: #2a5595;
+       }
+       .mobile>div:hover h5{
+        color: red;
+       }
+       .mobile p{
+        color: gray;
+       }
+       .mobile>div{
+        padding: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        line-height:10px;
+       }
+       .mobile>div>img{
+        width: 200px;
+       }
+        .mobile>div>img:hover{
+            width: 210px;
+        }
+       .mobile>div>button{
+        border-radius: 10px;
+        color:rgb(75,146,73);
+        border: 1px solid rgb(75,146,73);
+       }
+       .sappliances{
+         display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows:auto ;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 10px;
+       }
+        .sappliances>div{
+        padding: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        line-height:10px;
+       }
+       .sappliances>div>img{
+        width: 200px;
+       }
+        .sappliances>div>img:hover{
+            width: 210px;
+        }
+       .sappliances>div>button{
+        border-radius: 10px;
+        color:rgb(75,146,73);
+        border: 1px solid rgb(75,146,73);
+       }
+        .sappliances h5{
+        color: #2a5595;
+       }
+       .sappliances>div:hover h5{
+        color: red;
+       }
+       .sappliances p{
+        color: gray;
+       }
+        .watch{
+         display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows:auto ;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 10px;
+       }
+        .watch>div{
+        padding: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        line-height:10px;
+       }
+       .watch>div>img{
+        width: 200px;
+       }
+       .watch>div>img:hover{
+        width: 210px;
+       }
+       .watch>div>button{
+        border-radius: 10px;
+        color:rgb(75,146,73);
+        border: 1px solid rgb(75,146,73);
+       }
+        .watch h5{
+        color: #2a5595;
+       }
+       .watch>div:hover h5{
+        color: red;
+       }
+       .watch p{
+        color: gray;
+       }
+       #viewall{
+        width: 30%;
+        margin: auto;
+        text-align: center;
+    
+       }
+       #viewall>button{
+        font-size: 30px;
+        padding: 5px 30px;
+        border-radius: 20px;
+        background-color: #2a5595;
+        color: white;
+        margin: 20px;
+        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+       }
+         #viewall>button:hover{
+            background-color: white;
+            color: #2a5595;
+            border:1px solid #2a5595;
+         }
