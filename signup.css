@@ -89,8 +89,9 @@
             justify-content: space-around;
             align-items: center;
         }
-        #bottom h3:hover,p:hover{
+        #bottom h3:hover, #bottom p:hover{
             cursor: pointer;
+            text-decoration: underline;
 
         }
         #ram{
@@ -98,6 +99,11 @@
             display: flex;
             border-radius: 20px;
         }
+         #login:hover{
+            cursor: pointer;
+           color: white;
+           font-size: 20px;
+         }
         /* ======================================================================================================
         ======================================================================================================= */
 
@@ -179,7 +185,7 @@
         label{
             margin-left: 5%;
         }
-        .lucy input,button{
+        .lucy input,#sign{
             width: 90%;
             height: 40px;
             margin-left:5%;
@@ -187,7 +193,7 @@
             border: 1px solid gray;
             
         }
-        .lucy button{
+        .lucy #sign{
             background-color: rgb(201, 194, 194);
             color: black;
             text-align: center;

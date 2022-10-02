@@ -21,3 +21,7 @@ function myfun(event){
     // // let name=event.target[0].value;
     // console.log(event)
 }
+
+function leman(){
+    window.location.href="login.html"
+}

@@ -89,8 +89,9 @@
             justify-content: space-around;
             align-items: center;
         }
-        #bottom h3:hover,p:hover{
+        #bottom h3:hover,#bottom p:hover{
             cursor: pointer;
+            text-decoration: underline;
 
         }
         #ram{
@@ -98,6 +99,11 @@
             display: flex;
             border-radius: 20px;
         }
+         #login:hover{
+            cursor: pointer;
+           color: white;
+           font-size: 20px;
+         }
         /* ======================================================================================================
         ======================================================================================================= */
 

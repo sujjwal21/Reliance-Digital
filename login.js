@@ -23,3 +23,6 @@ let pas=(localStorage.getItem("password"));
 
     // window.location.href="puppy.html"
     }
+function leman(){
+    window.location.href="signup.html"
+}
