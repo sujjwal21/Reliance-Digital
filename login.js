@@ -16,7 +16,7 @@ let pas=(localStorage.getItem("password"));
             alert("login successful")
         }
         if(email==ema&&password==pas){
-            window.location.href="home.html"
+            window.location.href="index.html"
         }else{
             // alert("wrong input")
         }

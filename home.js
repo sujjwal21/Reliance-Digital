@@ -258,5 +258,5 @@ function login(){
     window.location.href="login.html"
 }
 function lema(){
-    window.location.href="home.html"
+    window.location.href="index.html"
 }
